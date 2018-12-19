@@ -1,0 +1,21 @@
+dec 19/16:24:41.350 DEBUG2 : 		
+
+StartSession()
+
+dec 19/16:24:41.976 DEBUG2 : 		-> ConnectToHardware()
+dec 19/16:24:41.977 DEBUG2 : 		  SigAPISetPath('D:\IAR\arm\bin\jet\bin')
+dec 19/16:24:42.048 DEBUG2 : 		  SigProbe version: 1.02
+dec 19/16:24:42.083 DEBUG2 : 		  ISigProbe::EnumScan()
+dec 19/16:24:42.094 DEBUG2 : 		  scanning finished: found 0 probes
+dec 19/16:24:43.432 DEBUG2 : 		<- ConnectToHardware()
+dec 19/16:24:43.433 DEBUG2 : 		********** 'Controlled' exception (1) caught in DbBeginSession
+dec 19/16:24:43.960 DEBUG2 : 		AboutToStopSession()
+dec 19/16:24:43.984 DEBUG2 : 		PrepareStopSession()
+dec 19/16:24:44.000 DEBUG2 : 		StopGui()
+dec 19/16:24:44.012 DEBUG2 : 		StopSession()
+dec 19/16:24:44.015 DEBUG2 : 		-> TerminateHardware()
+dec 19/16:24:44.019 DEBUG2 : 		  SigAPITerm()
+dec 19/16:24:44.019 DEBUG2 : 		<- TerminateHardware()
+dec 19/16:24:44.019 DEBUG2 : 		~TdJetDriver()
+dec 19/16:24:44.019 DEBUG2 : 		-> TerminateHardware()
+dec 19/16:24:44.019 DEBUG2 : 		<- TerminateHardware()
